@@ -1,0 +1,49 @@
+/* Animated glowing background blob for React app */
+.animated-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background: #0a0a1a;
+  overflow: hidden;
+}
+.animated-bg .glow {
+  position: absolute;
+  width: 1200px;
+  height: 1200px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle at 60% 40%, #7cf0ff 0%, #6a3093 40%, #a044ff 70%, #000 100%);
+  opacity: 0.7;
+  filter: blur(80px);
+  animation: moveGlow 16s ease-in-out infinite alternate;
+}
+@keyframes moveGlow {
+  0% {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.7;
+  }
+  30% {
+    left: 60%;
+    top: 45%;
+    transform: translate(-50%, -50%) scale(1.08);
+    opacity: 0.8;
+  }
+  60% {
+    left: 40%;
+    top: 55%;
+    transform: translate(-50%, -50%) scale(1.12);
+    opacity: 0.85;
+  }
+  100% {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.7;
+  }
+}

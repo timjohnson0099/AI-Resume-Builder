@@ -1,0 +1,16 @@
+.theme-scrollbar::-webkit-scrollbar {
+  width: 10px;
+  background: transparent;
+}
+.theme-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(120deg, #a044ff 0%, #6a3093 100%);
+  border-radius: 8px;
+  border: 2px solid rgba(30,18,54,0.45);
+}
+.theme-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(120deg, #6a3093 0%, #a044ff 100%);
+}
+.theme-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #a044ff #1e1236;
+}

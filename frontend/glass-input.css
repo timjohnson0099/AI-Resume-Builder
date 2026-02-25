@@ -1,0 +1,29 @@
+/* Glassmorphism and themed scrollbars for input fields, skills, and experience */
+.glass-input .MuiInputBase-root,
+.glass-input .MuiInputBase-root input,
+.glass-input .MuiInputBase-root textarea {
+  background: rgba(30, 18, 54, 0.35) !important;
+  backdrop-filter: blur(10px) saturate(160%) !important;
+  -webkit-backdrop-filter: blur(10px) saturate(160%) !important;
+  border-radius: 8px !important;
+  color: #fff !important;
+  box-shadow: 0 1.5px 8px 0 #a044ff22;
+}
+
+/* Themed scrollbars for skills and experience blocks */
+.theme-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #a044ff #2d0036;
+}
+.theme-scrollbar::-webkit-scrollbar {
+  width: 10px;
+  background: #2d0036;
+  border-radius: 8px;
+}
+.theme-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(120deg, #a044ff 0%, #6a3093 100%);
+  border-radius: 8px;
+}
+.theme-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(120deg, #6a3093 0%, #a044ff 100%);
+}
