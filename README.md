@@ -232,6 +232,3 @@ If you encounter any issues or have questions:
 2. Create a new issue with detailed information
 3. Include your Python version, Node.js version, and error messages
 
----
-
-**Made with ❤️ by Salman Ali** 
