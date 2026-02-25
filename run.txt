@@ -1,0 +1,40 @@
+python app.py
+npm run dev
+
+
+I am a Computer Science graduate from DHA Suffa University with experience in Machine Learning, Artificial Intelligence, NLP, and
+Retrieval-Augmented Generation (RAG) applications. I have hands-on expertise in developing advanced models, including a characterlevel transformer for text generation and an NLP-based sentiment analysis tool achieving 92% accuracy. I have completed the Machine
+Learning Specialization by Stanford Online and DeepLearning.AI , strengthening my technical foundation.
+In addition to AI and NLP, I have experience in mobile development using Flutter and Dart, creating visually appealing and
+functional cross-platform applications. As a C++ developer, I contributed to a national-level project at SUPARCO, where I optimized
+parallel computing algorithms to significantly reduce runtime. Proficient in Python, C++, Flutter, and Rust, I excel in analytical
+problem-solving and delivering impactful, real-world solutions.
+SKILLS AI/ML, RAG ,NLP, ML Algorithms
+Frameworks, Flutter,Pytorch, Streamlit
+Programing language ,Python,C ++,Dart
+EXPERIENCE
+LusionTech, AI Business Development Manager
+AI Sales Management, Projects, and Communication with International Clients
+2025/01 – present
+Karachi, Pakistan
+•Engaged with international clients through strategic meetings and personalized consultations to
+deliver AI Solutions aligned with their unique business needs.
+•Managed and oversaw all client-assigned AI projects, ensuring timely execution and high-quality
+outcomes.
+SUPARCO, AI Engineer
+Contract-based job
+2025/04 – present
+Karachi, Pakistan
+•Developing an AI-based data fusion system that integrates optical and SAR imagery transmitted from
+an airborne observatory to the ground.
+Research Based Project
+•Physically Based Phase Function in Volume Rendering
+2023/03 – present
+•Objective: Enhance volumetric rendering quality.
+•Focus: Propose our phase function, which is more physically accurate, showcasing applicability in
+various use cases, including medical CT scans, MRIs, and animations.
+SUPARCO, C++ developer
+•SAR(Synthetic aperture radar) Image formation
+2024/01 – 2024/05
+karachi, Pakistan
+•Develop, convert, optimize algorithms and optimize the code to run parallel on the CPU

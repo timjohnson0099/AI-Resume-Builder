@@ -1,0 +1,81 @@
+{
+  "title": "Resume",
+  "type": "object",
+  "properties": {
+    "personal_info": 
+    {
+        "type": "object",
+        "properties":
+            {
+                "name":
+                    {
+                        "type":"string"
+                    },
+                "email":
+                    {
+                        "type":"string",
+                        "format":"email"
+                    },
+                "phone":
+                    {
+                        "type":"string"
+                    }
+            },
+        "required":
+        [
+            "name",
+            "email"
+        ]
+    },
+    "summary": 
+    {
+        "type": "string"
+    },
+    "skills": 
+    {
+        "type":"array",
+        "items":
+            {
+                "type":"string"
+            }
+    },
+    "experience": 
+    {
+        "type":"array",
+        "items":
+        {
+            "type":"object",
+            "properties":
+            {
+                "role":
+                {
+                    "type":"string"
+                },
+                "company":
+                {
+                    "type":"string"
+                },
+                "start_date":
+                {
+                    "type":"string"
+                },
+                "end_date":
+                {
+                    "type":"string"
+                },
+                "description":
+                {
+                    "type":"string"
+                }
+            },
+            "required":
+            [
+                "role",
+                "company",
+                "start_date"
+            ]
+        }
+}
+  },
+  "required": ["personal_info","summary","skills"]
+}
