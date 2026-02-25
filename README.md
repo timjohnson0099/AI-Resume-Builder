@@ -13,7 +13,7 @@ A modern, AI-powered resume builder that creates professional resumes from free-
 - **Multiple Output Formats**: Generate resumes in PDF, Markdown, and JSON formats
 - **Interactive Web Interface**: Modern React frontend with Material-UI components
 - **Professional PDF Generation**: Clean, formatted PDF output with proper styling
-- **Flexible Input**: Accept free-form text descriptions and convert them into structured resume data
+- **Flexible Input**: Accept free-form text descriptions and convert them into structured resume dataa
 - **Real-time Processing**: Instant resume generation with live preview
 
 ## 🚀 Quick Start
